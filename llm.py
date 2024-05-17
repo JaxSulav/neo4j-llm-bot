@@ -15,4 +15,4 @@ embeddings_model = HuggingFaceEmbeddings(
 )
 
 # * Initializing LLM Ollama
-llm = Ollama(model="mistral", temperature=0.4)
+llm = Ollama(model="mistral", temperature=0.1)
